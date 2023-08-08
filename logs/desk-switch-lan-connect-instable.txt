@@ -1,0 +1,2474 @@
+0000001042 [system] INFO: Device 0a10aced202194944a004cbc started
+0000001043 [system] TRACE: Last reset reason: 40 (data: 0x00)
+0000001050 [hal] TRACE: Using external antenna
+0000001664 [system.nm] INFO: State changed: NONE -> DISABLED
+0000001665 [system.nm] TRACE: Interface 4 power state: 1
+0000001668 [system.nm] TRACE: Interface 3 power state: 2
+0000001697 [comm] INFO: channel inited
+0000001744 [ncp.mgr] TRACE: Updated file: /sys/wifi_config.bin
+0000001927 [system.nm] TRACE: Updated file: /sys/network.dat
+0000002061 [app] INFO: ps-eth-rk
+0000002062 [app] INFO: System version: 5.4.1
+0000002077 [app] INFO: System deviceID: 0a10aced202194944a004cbc
+0000002080 [app.ethcell] INFO: Ethernet adapter present
+0000002082 [app.ethcell] INFO: Trying to connect by Ethernet
+0000002418 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000002424 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000002428 [net.ifapi] INFO: Netif en2 state UP
+0000002599 [net.en] TRACE: Closed MACRAW socket
+0000002631 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000002632 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000002645 [net.en] INFO: Link up
+0000002646 [net.ifapi] INFO: Netif en2 link UP, profile=NONE
+0000002649 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000003081 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000004081 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000005084 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000005638 [hal] INFO: DNS server list changed
+0000005639 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000005645 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000005799 [system] INFO: Cloud: connecting
+0000005802 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000005805 [system] INFO: Loaded cloud server address and port from session data
+0000005870 [system] TRACE: Address type: 1
+0000005872 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000005878 [system] INFO: Cloud socket=0, connecting to 18.214.12.187#5684
+0000005882 [system] TRACE: Cloud socket=0, connected to 18.214.12.187#5684
+0000005890 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000005900 [system] TRACE: Applying new keepalive interval now
+0000005951 [system] INFO: Cloud socket connected
+0000005984 [system] INFO: Starting handshake: presense_announce=0
+0000005988 [comm.protocol.handshake] INFO: Establish secure connection
+0000005996 [comm.dtls] INFO: session has 0 uses
+0000006002 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000006004 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,88, next_coap_id=2e
+0000006010 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=46
+0000006088 [app] INFO: Ethern
+0000006093 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000007087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000008093 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000009080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000010080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000010081 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000010088 [comm.coap] TRACE: Sending CoAP message
+0000010092 [comm.coap] TRACE: CON 0.00  size=4 token= id=47
+0000010114 [system] INFO: cloud connected from existing session.
+0000010129 [comm.coap] TRACE: Sending CoAP message
+0000010203 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=48
+0000010225 [comm.coap] TRACE: Sending CoAP message
+0000010229 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=49
+0000010239 [comm] INFO: Sending TIME request
+0000010241 [comm.coap] TRACE: Sending CoAP message
+0000010245 [comm.coap] TRACE: CON GET /t size=7 token=b5 id=50
+0000010251 [system] INFO: Sending application DESCRIBE
+0000010255 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000010339 [system] INFO: Sending subscriptions
+0000010363 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000010423 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000011088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000012080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000013080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000014083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000014320 [comm.coap] TRACE: Retransmitting CoAP message; ID: 50; attempt 1 of 3
+0000014353 [comm.coap] TRACE: Sending CoAP message
+0000014410 [comm.coap] TRACE: CON GET /t size=7 token=b5 id=50
+0000014450 [comm.coap] TRACE: Retransmitting CoAP message; ID: 49; attempt 1 of 3
+0000014546 [comm.coap] TRACE: Sending CoAP message
+0000014547 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=49
+0000014728 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000014748 [comm.coap] TRACE: Received CoAP ACK 0.00  size=4 token= id=47
+0000015093 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000015097 [comm.coap] TRACE: Received CoAP message
+0000015168 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48
+0000015853 [comm.coap] TRACE: Received CoAP message
+0000015855 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=20311
+0000015950 [comm.coap] TRACE: Sending CoAP message
+0000015950 [comm.coap] TRACE: ACK 0.00  size=4 token= id=20311
+0000016081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000016281 [comm.coap] TRACE: Received CoAP message
+0000016282 [comm.coap] TRACE: ACK 0.00  size=4 token= id=49
+0000017080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000018080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000019080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000020080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000020562 [comm.coap] TRACE: Received CoAP message
+0000020609 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=20311
+0000020647 [comm.coap] TRACE: Sending CoAP message
+0000020652 [comm.coap] TRACE: ACK 0.00  size=4 token= id=20311
+0000021080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000021389 [comm.coap] TRACE: Received CoAP message
+0000021389 [comm.coap] TRACE: ACK 2.05  size=10 token=b5 id=50
+0000021474 [system] INFO: All handshake messages have been processed
+0000021476 [comm.protocol] INFO: Received TIME response: 1691501645
+0000021743 [system] INFO: Cloud connected
+0000021745 [app.ethcell] INFO: Cloud connected over Ethernet keepAlive=25
+0000022081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000023084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000024083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000025081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000026080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000027080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000028080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000029080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000030080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000031083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000032081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000033090 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000034084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000035083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000036086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000037083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000038083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000039081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000040091 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000041081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000042080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000043081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000044081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000045080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000046082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000046506 [comm.coap] TRACE: Sending CoAP message
+0000046507 [comm.coap] TRACE: CON 0.00  size=4 token= id=51
+0000047082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000048084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000049082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000049956 [comm.coap] TRACE: Received CoAP message
+0000049957 [comm.coap] TRACE: ACK 0.00  size=4 token= id=51
+0000050083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000051082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000052084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000053081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000054080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000055081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000056080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000057081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000058080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000059080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000060080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000061080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000062092 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000063080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000064080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000065082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000066082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000067084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000068084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000069083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000070084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000071083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000072082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000073080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000074084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000075083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000075153 [comm.coap] TRACE: Sending CoAP message
+0000075182 [comm.coap] TRACE: CON 0.00  size=4 token= id=52
+0000076082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000077082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000078082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000079082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000079443 [comm.coap] TRACE: Retransmitting CoAP message; ID: 52; attempt 1 of 3
+0000079513 [comm.coap] TRACE: Sending CoAP message
+0000079517 [comm.coap] TRACE: CON 0.00  size=4 token= id=52
+0000080080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000081083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000082082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000083080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000084080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000085084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000086082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000087080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000087356 [comm.coap] TRACE: Received CoAP message
+0000087358 [comm.coap] TRACE: ACK 0.00  size=4 token= id=52
+0000088080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000089080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000090084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000091080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000092082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000093080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000094087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000095082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000096082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000097080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000098080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000099083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000100084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000101083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000102081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000103097 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000104082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000105080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000106082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000107080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000108081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000109081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000110081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000111081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000112081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000112486 [comm.coap] TRACE: Sending CoAP message
+0000112528 [comm.coap] TRACE: CON 0.00  size=4 token= id=53
+0000113083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000114080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000114389 [comm.coap] TRACE: Received CoAP message
+0000114391 [comm.coap] TRACE: ACK 0.00  size=4 token= id=53
+0000115082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000116080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000117081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000118080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000119082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000120080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000121080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000122080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000123080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000124082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000125080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000126084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000127080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000128083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000129080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000130083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000131081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000132083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000133081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000134080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000135080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000136080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000137080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000138080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000139083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000139408 [comm.coap] TRACE: Sending CoAP message
+0000139437 [comm.coap] TRACE: CON 0.00  size=4 token= id=54
+0000139921 [comm.coap] TRACE: Received CoAP message
+0000139923 [comm.coap] TRACE: ACK 0.00  size=4 token= id=54
+0000140080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000141080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000142080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000143080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000144080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000145084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000146080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000147080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000148080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000149082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000150080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000151080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000152081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000153080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000154083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000155083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000156084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000157083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000158080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000159083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000160080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000161083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000162081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000163080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000164081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000165052 [comm.coap] TRACE: Sending CoAP message
+0000165094 [comm.coap] TRACE: CON 0.00  size=4 token= id=55
+0000165084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000166082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000167084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000168080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000169084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000170082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000170951 [comm.coap] TRACE: Retransmitting CoAP message; ID: 55; attempt 1 of 3
+000998 [comm.coap] TRACE: Sending CoAP message
+0000171002 [comm.coap] TRACE: CON 0.00  size=4 token= id=55
+0000171082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000172080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000173081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000174082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000175081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000176084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000177082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000178083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000179082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000180081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000180903 [comm.coap] TRACE: Retransmitting CoAP message; ID: 55; attempt 2 of 3
+0000180937 [comm.coap] TRACE: Sending CoAP message
+0000180941 [comm.coap] TRACE: CON 0.00  size=4 token= id=55
+0000181082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000182082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000182602 [comm.coap] TRACE: Received CoAP message
+0000182603 [comm.coap] TRACE: ACK 0.00  size=4 token= id=55
+0000183080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000184083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000185084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000186080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000187082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000188083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000189080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000190081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000191080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000192082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000193081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000194080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000195084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000196083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000197084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000198082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000199083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000200084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000201084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000202088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000203083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000204081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000205084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000206080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000207084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000207748 [comm.coap] TRACE: Sending CoAP message
+0000207758 [comm.coap] TRACE: CON 0.00  size=4 token= id=56
+0000208080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000209088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000210080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000211084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000212080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000212301 [comm.coap] TRACE: Retransmitting CoAP message; ID: 56; attempt 1 of 3
+0000212321 [comm.coap] TRACE: Sending CoAP message
+0000212327 [comm.coap] TRACE: CON 0.00  size=4 token= id=56
+0000213085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000214083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000215083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000216080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000217082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000218083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000219089 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000220084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000220702 [comm.coap] TRACE: Retransmitting CoAP message; ID: 56; attempt 2 of 3
+0000220704 [comm.coap] TRACE: Sending CoAP message
+0000220709 [comm.coap] TRACE: CON 0.00  size=4 token= id=56
+0000221082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000221171 [comm.coap] TRACE: Received CoAP message
+0000221173 [comm.coap] TRACE: ACK 0.00  size=4 token= id=56
+0000222084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000223080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000224080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000225080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000226080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000227080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000228080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000229080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000230085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000231080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000232083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000233083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000234083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000235080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000236083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000237081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000238080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000239082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000240080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000241080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000242080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000243083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000244080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000245081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000246080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000246264 [comm.coap] TRACE: Sending CoAP message
+0000246264 [comm.coap] TRACE: CON 0.00  size=4 token= id=57
+0000246569 [comm.coap] TRACE: Received CoAP message
+0000246570 [comm.coap] TRACE: ACK 0.00  size=4 token= id=57
+0000247080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000248080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000249080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000250081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000251082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000252080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000253088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000254080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000255083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000256080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000257081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000258084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000259080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000260083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000261080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000262083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000263080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000264083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000265083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000266080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000267080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000268084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000269080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000270084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000271080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000271654 [comm.coap] TRACE: Sending CoAP message
+0000271697 [comm.coap] TRACE: CON 0.00  size=4 token= id=58
+0000272083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000273083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000274080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000274522 [comm.coap] TRACE: Received CoAP message
+0000274528 [comm.coap] TRACE: ACK 0.00  size=4 token= id=58
+0000275084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000276084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000277080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000278080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000279081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000280086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000281081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000282085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000283081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000284081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000285082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000286082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000287080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000288083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000289081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000290083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000291080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000292080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000293083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000294083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000295084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000296080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000297083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000298081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000299082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000299704 [comm.coap] TRACE: Sending CoAP message
+0000299728 [comm.coap] TRACE: CON 0.00  size=4 token= id=59
+0000300080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000301080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000302080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000303082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000304080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000305084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000305206 [comm.coap] TRACE: Retransmitting CoAP message; ID: 59; attempt 1 of 3
+0000305243 [comm.coap] TRACE: Sending CoAP message
+0000305247 [comm.coap] TRACE: CON 0.00  size=4 token= id=59
+0000306080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000307082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000308080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000309084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000310081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000311083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000312080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000313081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000314086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000314583 [comm.coap] TRACE: Retransmitting CoAP message; ID: 59; attempt 2 of 3
+comm.coap] TRACE: Sending CoAP message
+0000314590 [comm.coap] TRACE: CON 0.00  size=4 token= id=59
+0000315083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000316080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000317080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000318084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000319083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000320082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000321084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000322080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000323080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000324084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000325084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000326084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000327083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000328083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000329084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000329881 [comm.protocol] ERROR: Event loop error 1
+0000329882 [system] WARN: Communication loop error, closing cloud socket
+0000329928 [system] INFO: Cloud: disconnecting
+0000329970 [system] INFO: Cloud: disconnected
+0000329971 [system] INFO: Cloud: connecting
+0000329970 [app.ethcell] INFO: Disconnected from the cloud while on Ethernet, waiting for reconnect
+0000330055 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000330063 [system] INFO: Loaded cloud server address and port from session data
+0000330081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000330131 [system] TRACE: Address type: 1
+0000330153 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000330159 [system] INFO: Cloud socket=0, connecting to 18.214.12.187#5684
+0000330208 [system] TRACE: Cloud socket=0, connected to 18.214.12.187#5684
+0000330246 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000330329 [system] TRACE: Applying new keepalive interval now
+0000330332 [system] INFO: Cloud socket connected
+0000330334 [system] INFO: Starting handshake: presense_announce=0
+0000330371 [comm.protocol.handshake] INFO: Establish secure connection
+0000330442 [comm.dtls] INFO: session has 0 uses
+0000330453 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000330531 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,112, next_coap_id=3b
+0000330533 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=59
+0000330623 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000331087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000332082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000333088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000334082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000335086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000336084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000337091 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000338086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000338229 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000338231 [comm.coap] TRACE: Sending CoAP message
+0000338292 [comm.coap] TRACE: CON 0.00  size=4 token= id=60
+0000338317 [system] INFO: cloud connected from existing session.
+0000338401 [comm.coap] TRACE: Sending CoAP message
+0000338401 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=61
+0000338489 [comm.coap] TRACE: Sending CoAP message
+0000338491 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=62
+0000338579 [system] INFO: Sending application DESCRIBE
+0000338580 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000338664 [system] INFO: Sending subscriptions
+0000338670 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000338754 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000339082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000340082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000341080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000342081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000343080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000343599 [comm.coap] TRACE: Retransmitting CoAP message; ID: 62; attempt 1 of 3
+0000343602 [comm.coap] TRACE: Sending CoAP message
+0000343606 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=62
+0000344082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000344133 [comm.coap] TRACE: Retransmitting CoAP message; ID: 60; attempt 1 of 3
+0000344138 [comm.coap] TRACE: Sending CoAP message
+0000344164 [comm.coap] TRACE: CON 0.00  size=4 token= id=60
+0000344427 [comm.coap] TRACE: Retransmitting CoAP message; ID: 61; attempt 1 of 3
+0000344473 [comm.coap] TRACE: Sending CoAP message
+0000344511 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=61
+0000345081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000346080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000347080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000348080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000349080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000350082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000351082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000352082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000353083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000353180 [comm.coap] TRACE: Retransmitting CoAP message; ID: 60; attempt 2 of 3
+0000353182 [comm.coap] TRACE: Sending CoAP message
+0000353237 [comm.coap] TRACE: CON 0.00  size=4 token= id=60
+0000354082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000354745 [comm.coap] TRACE: Retransmitting CoAP message; ID: 62;0354773 [comm.coap] TRACE: Sending CoAP message
+0000354777 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=62
+0000355086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000355602 [comm.coap] TRACE: Retransmitting CoAP message; ID: 61; attempt 2 of 3
+000035564Sending CoAP message
+0000355644 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=61
+0000356080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000357083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000358081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000359087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000360057 [app.ethcell] INFO: Took too long to connect to the cloud by Ethernet, switching to cellular
+0000360121 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000360127 [app.ethcell] INFO: Trying to connect by cellular
+0000360124 [net.ifapi] INFO: Netif en2 state DOWN
+0000360151 [hal] INFO: DNS server list changed
+0000360157 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000360161 [hal] INFO: DNS server list changed
+0000360190 [net.en] TRACE: Closed MACRAW socket
+0000360190 [net.ifapi] INFO: Netif en2 link DOWN, profile=NONE
+0000360193 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000360200 [hal] INFO: DNS server list changed
+0000360205 [hal] INFO: DNS server list changed
+0000360211 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000360219 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000360279 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000360283 [system] INFO: Cloud: disconnecting
+0000360351 [system] INFO: Cloud: disconnected
+0000360637 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000360643 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000361080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000362080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000363080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000364080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000365080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000366080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000367080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000368080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000369080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000370080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000371080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000372080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000373080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000374080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000375080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000376080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000377080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000378080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000379080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000380080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000381080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000382080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000383080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000384080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000385080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000386080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000387080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000388080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000389080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000390080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000391080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000392080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000393080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000394080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000395080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000396080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000397080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000398080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000399080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000400080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000401080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000402080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000403080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000404080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000405080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000406080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000407080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000408080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000409080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000410080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000411080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000412080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000413080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000414080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000415080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000416080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000417080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000418080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000419080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000420080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000421080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000422080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000423080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000424080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000425080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000426080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000427080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000428080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000429080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000430080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000431080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000432080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000433080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000434080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000435080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000436080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000437080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000438080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000439080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000440080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000441080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000442080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000443080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000444080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000445080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000446080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000447080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000448080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000449080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000450080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000451080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000452080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000453080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000454080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000455080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000456080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000457080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000458080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000459080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000460080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000461080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000462080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000463080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000464080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000465080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000466080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000467080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000468080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000469080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000470080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000471080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000472080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000473080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000474080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000475080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000476080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000477080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000478080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000479080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000480080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000481080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000482080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000483080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000484080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000485080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000486080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000487080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000488080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000489080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000490080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000491080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000492080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000493080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000494080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000495080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000496080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000497080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000498080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000499080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000500080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000501080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000502080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000503080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000504080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000505080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000506080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000507080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000508080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000509080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000510080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000511080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000512080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000513080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000514080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000515080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000516080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000517080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000518080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000519080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000520080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000521080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000522080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000523080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000524080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000525080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000526080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000527080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000528080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000529080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000530080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000531080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000532080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000533080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000534080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000535080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000536080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000537080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000538080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000539080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000540080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000541080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000542080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000543080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000544080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000545080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000546080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000547080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000548080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000549080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000550080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000551080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000552080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000553080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000554080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000555080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000556080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000557080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000558080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000559080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000560080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000561080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000562080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000563080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000564080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000565080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000566080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000567080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000568080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000569080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000570080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000571080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000572080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000573080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000574080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000575080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000576080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000577080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000578080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000579080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000580080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000581080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000582080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000583080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000584080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000585080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000586080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000587080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000588080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000589080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000590080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000591080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000592080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000593080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000594080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000595080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000596080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000597080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000598080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000599080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000600080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000601080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000602080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000603080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000604080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000605080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000606080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000607080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000608080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000609080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000610080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000611080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000612080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000613080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000614080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000615080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000616080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000617080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000618080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000619080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000620080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000621080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000622080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000623080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000624080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000625080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000626080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000627080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000628080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000629080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000630080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000631080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000632080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000633080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000634080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000635080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000636080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000637080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000638080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000639080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000640080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000641080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000642080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000643080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000644080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000645080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000646080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000647080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000648080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000649080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000650080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000651080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000652080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000653080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000654080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000655080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000656080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000657080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000658080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000659080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000660080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000660144 [app.ethcell] INFO: Trying to connect by Ethernet
+0000660373 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000660375 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000660486 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000660493 [net.ifapi] INFO: Netif en2 state UP
+0000660663 [net.en] TRACE: Closed MACRAW socket
+0000660695 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000660696 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000660707 [net.en] INFO: Link up
+0000660707 [net.ifapi] INFO: Netif en2 link UP, profile=NONE
+0000660710 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000661080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000662081 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000663080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000664080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000664488 [hal] INFO: DNS server list changed
+0000664489 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000664494 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000664700 [system] INFO: Cloud: connecting
+0000664740 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000664742 [system] INFO: Loaded cloud server address and port from session data
+0000664828 [system] TRACE: Address type: 1
+0000664829 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000664833 [system] INFO: Cloud socket=0, connecting to 18.214.12.187#5684
+0000664919 [system] TRACE: Cloud socket=0, connected to 18.214.12.187#5684
+0000664921 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000665002 [system] TRACE: Applying new keepalive interval now
+0000665009 [system] INFO: Cloud socket connected
+0000665013 [system] INFO: Starting handshake: presense_announce=0
+0000665057 [comm.protocol.handshake] INFO: Establish secure connection
+0000665085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000665101 [comm.dtls] INFO: session has 1 uses
+0000665267 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000665274 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,121, next_coap_id=3e
+0000665280 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=62
+0000665364 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000666080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000666516 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000666561 [comm.coap] TRACE: Sending CoAP message
+0000666563 [comm.coap] TRACE: CON 0.00  size=4 token= id=63
+0000666592 [system] INFO: cloud connected from existing session.
+0000666602 [comm.coap] TRACE: Sending CoAP message
+0000666694 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=64
+0000666775 [comm.coap] TRACE: Sending CoAP message
+0000666777 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=65
+0000666840 [system] INFO: Sending application DESCRIBE
+0000666841 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000666903 [system] INFO: Sending subscriptions
+0000666903 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000666999 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000667045 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000667047 [comm.coap] TRACE: Received CoAP message
+0000667051 [comm.coap] TRACE: ACK 0.00  size=4 token= id=63
+0000667080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000668080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000669080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000670080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000671083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000672083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000672264 [comm.coap] TRACE: Retransmitting CoAP message; ID: 64; attempt 1 of 3
+0000672307 [comm.coap] TRACE: Sending CoAP message
+0000672313 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=64
+0000672754 [comm.coap] TRACE: Retransmitting CoAP message; ID: 65; attempt 1 of 3
+0000672837 [comm.coap] TRACE: Sending CoAP message
+0000672838 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=65
+0000673082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000674082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000675082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000676080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000677082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000678082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000679080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000680084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000680570 [comm.coap] TRACE: Retransmitting CoAP message; ID: 64; attempt 2 of 3
+0000680590 [comm.coap] TRACE: Sending CoAP message
+0000680636 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=64
+0000681084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000682081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000682339 [comm.coap] TRACE: Retransmitting CoAP messcoap] TRACE: Sending CoAP message
+0000682388 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=65
+0000683080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000684082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000685083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000686083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000687081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000688080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000689081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000690080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000690375 [app.ethcell] INFO: Took too long to connect to the cloud by Ethernet, switching to cellular
+0000690386 [app.ethcell] INFO: Trying to connect by cellular
+0000690452 [net.ifapi] INFO: Netif en2 state DOWN
+0000690471 [hal] INFO: DNS server list changed
+0000690472 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000690483 [hal] INFO: DNS server list changed
+0000690494 [net.en] TRACE: Closed MACRAW socket
+0000690495 [net.ifapi] INFO: Netif en2 link DOWN, profile=NONE
+0000690500 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000690505 [hal] INFO: DNS server list changed
+0000690508 [hal] INFO: DNS server list changed
+0000690515 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000690531 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000690592 [net.en] TRACE: Closed MACRAW socket
+0000690616 [net.en] TRACE: Closed MACRAW socket
+0000690648 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000690650 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000690658 [system] INFO: Cloud: disconnecting
+0000690658 [system] INFO: Cloud: disconnected
+0000690769 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000690774 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000691080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000692080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000693080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000694080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000695080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000696080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000697080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000698080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000699080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000700080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000701080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000702080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000703080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000704080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000705080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000706080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000707080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000708080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000709080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000710080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000711080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000712080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000713080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000714080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000715080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000716080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000717080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000718080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000719080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000720080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000721080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000722080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000723080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000724080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000725080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000726080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000727080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000728080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000729080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000730080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000731080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000732080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000733080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000734080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000735080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000736080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000737080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000738080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000739080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000740080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000741080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000742080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000743080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000744080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000745080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000746080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000747080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000748080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000749080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000750080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000751080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000752080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000753080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000754080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000755080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000756080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000757080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000758080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000759080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000760080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000761080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000762080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000763080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000764080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000765080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000766080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000767080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000768080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000769080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000770080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000771080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000772080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000773080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000774080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000775080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000776080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000777080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000778080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000779080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000780080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000781080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000782080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000783080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000784080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000785080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000786080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000787080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000788080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000789080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000790080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000791080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000792080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000793080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000794080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000795080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000796080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000797080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000798080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000799080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000800080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000801080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000802080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000803080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000804080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000805080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000806080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000807080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000808080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000809080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000810080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000811080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000812080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000813080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000814080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000815080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000816080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000817080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000818080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000819080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000820080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000821080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000822080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000823080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000824080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000825080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000826080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000827080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000828080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000829080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000830080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000831080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000832080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000833080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000834080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000835080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000836080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000837080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000838080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000839080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000840080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000841080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000842080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000843080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000844080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000845080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000846080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000847080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000848080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000849080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000850080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000851080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000852080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000853080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000854080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000855080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000856080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000857080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000858080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000859080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000860080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000861080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000862080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000863080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000864080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000865080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000866080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000867080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000868080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000869080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000870080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000871080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000872080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000873080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000874080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000875080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000876080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000877080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000878080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000879080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000880080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000881080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000882080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000883080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000884080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000885080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000886080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000887080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000888080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000889080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000890080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000891080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000892080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000893080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000894080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000895080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000896080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000897080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000898080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000899080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000900080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000901080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000902080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000903080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000904080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000905080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000906080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000907080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000908080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000909080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000910080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000911080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000912080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000913080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000914080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000915080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000916080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000917080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000918080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000919080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000920080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000921080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000922080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000923080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000924080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000925080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000926080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000927080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000928080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000929080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000930080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000931080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000932080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000933080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000934080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000935080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000936080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000937080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000938080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000939080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000940080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000941080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000942080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000943080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000944080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000945080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000946080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000947080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000948080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000949080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000950080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000951080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000952080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000953080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000954080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000955080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000956080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000957080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000958080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000959080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000960080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000961080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000962080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000963080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000964080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000965080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000966080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000967080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000968080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000969080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000970080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000971080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000972080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000973080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000974080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000975080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000976080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000977080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000978080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000979080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000980080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000981080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000982080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000983080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000984080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000985080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000986080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000987080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000988080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000989080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000990080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000990388 [app.ethcell] INFO: Trying to connect by Ethernet
+0000990620 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000990622 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000990734 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000990740 [net.ifapi] INFO: Netif en2 state UP
+0000990911 [net.en] TRACE: Closed MACRAW socket
+0000990943 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000990944 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000990957 [net.en] INFO: Link up
+0000990958 [net.ifapi] INFO: Netif en2 link UP, profile=NONE
+0000990961 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000991083 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000992080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000993082 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000994080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000994178 [hal] INFO: DNS server list changed
+0000994179 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000994183 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000994338 [system] INFO: Cloud: connecting
+0000994341 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000994348 [system] INFO: Loaded cloud server address and port from session data
+0000994351 [system] TRACE: Address type: 1
+0000994357 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000994361 [system] INFO: Cloud socket=0, connecting to 18.214.12.187#5684
+0000994371 [system] TRACE: Cloud socket=0, connected to 18.214.12.187#5684
+0000994377 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000994383 [system] TRACE: Applying new keepalive interval now
+0000994389 [system] INFO: Cloud socket connected
+0000994393 [system] INFO: Starting handshake: presense_announce=0
+0000994399 [comm.protocol.handshake] INFO: Establish secure connection
+0000994407 [comm.dtls] INFO: session has 0 uses
+0000994413 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000994415 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,128, next_coap_id=41
+0000994421 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=65
+0000994431 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000995080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000996100 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000997086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000998085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000999080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000999092 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000999094 [comm.coap] TRACE: Sending CoAP message
+0000999100 [comm.coap] TRACE: CON 0.00  size=4 token= id=66
+0000999127 [system] INFO: cloud connected from existing session.
+0000999137 [comm.coap] TRACE: Sending CoAP message
+0000999224 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=67
+0000999311 [comm.coap] TRACE: Sending CoAP message
+0000999313 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=68
+0000999375 [system] INFO: Sending application DESCRIBE
+0000999377 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000999440 [system] INFO: Sending subscriptions
+0000999441 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000999535 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000999621 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000999623 [comm.coap] TRACE: Received CoAP message
+0000999627 [comm.coap] TRACE: ACK 0.00  size=4 token= id=66
+0001000080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001001080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001002084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001003083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001004056 [comm.coap] TRACE: Retransmitting CoAP message; ID: 67; attempt 1 of 3
+0001004058 [comm.coap] TRACE: Sending CoAP message
+0001004062 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=67
+0001004084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001004401 [comm.coap] TRACE: Received CoAP message
+0001004407 [comm.coap] TRACE: ACK 0.00  size=4 token= id=67
+0001004411 [comm.coap] TRACE: Retransmitting CoAP message; ID: 68; attempt 1 of 3
+0001004495 [comm.coap] TRACE: Sending CoAP message
+0001004495 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=68
+0001005080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001006083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001007080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001008082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001009083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001009693 [comm.coap] TRACE: ReceiveAP message
+0001009695 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending sim.coap] TRACE: Sending CoAP message
+0001009703 [comm.coap] TRACE: ACK 0.00  size=4 token= id=20312
+0001010086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001011085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001012080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001012123 [comm.coap] TRACE: Received CoAP message
+0001012126 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=20312
+0001012186 [comm.coap] TRACE: Sending CoAP message
+0001012214 [comm.coap] TRACE: ACK 0.00  size=4 token= id=20312
+0001012890 [comm.coap] TRACE: Retransmitting CoAP message; ID: 68; attempt 2 of 3
+0001012892 [comm.coap] TRACE: Sending CoAP message
+0001012921 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=68
+0001013083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001014080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001015080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001016082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001017080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001018085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001018390 [comm.coap] TRACE: Received CoAP message
+0001018391 [comm.coap] TRACE: C/particle/device/updates/pending size=47 token=01 id=20312
+0001018397 [comm.coap] TRACE: Sending CoAP message
+0001018480 [comm.coap] TRACE: ACK 0.00  size=4 token= id=20312
+0001019083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001020083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001020619 [app.ethcell] INFO: Took too long to connect to the cloud by Ethernet, switching to cellular
+0001020625 [app.ethcell] INFO: Trying to connect by cellular
+0001020628 [net.ifapi] INFO: Netif en2 state DOWN
+0001020651 [hal] INFO: DNS server list changed
+0001020652 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0001020658 [hal] INFO: DNS server list changed
+0001020685 [net.en] TRACE: Closed MACRAW socket
+0001020685 [net.ifapi] INFO: Netif en2 link DOWN, profile=NONE
+0001020689 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0001020695 [hal] INFO: DNS server list changed
+0001020699 [hal] INFO: DNS server list changed
+0001020706 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0001020714 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0001020775 [O: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0001020779 [system] INFO: Cloud: disconnecting
+0001020783 [system] INFO: Cloud: disconnected
+0001021034 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0001021040 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0001021080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001022080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001023080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001024080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001025080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001026080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001027080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001028080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001029080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001030080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001031080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001032080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001033080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001034080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001035080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001036080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001037080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001038080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001039080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001040080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001041080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001042080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001043080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001044080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001045080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001046080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001047080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001048080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001049080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001050080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001051080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001052080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001053080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001054080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001055080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001056080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001057080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001058080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001059080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001060080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001061080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001062080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001063080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001064080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001065080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001066080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001067080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001068080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001069080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001070080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001071080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001072080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001073080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001074080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001075080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001076080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001077080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001078080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001079080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001080080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001081080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001082080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001083080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001084080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001085080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001086080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001087080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001088080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001089080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001090080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001091080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001092080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001093080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001094080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001095080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001096080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001097080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001098080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001099080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001100080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001101080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001102080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001103080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001104080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001105080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001106080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001107080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001108080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001109080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001110080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001111080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001112080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001113080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001114080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001115080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001116080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001117080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001118080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001119080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001120080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001121080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001122080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001123080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001124080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001125080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001126080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001127080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001128080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001129080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001130080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001131080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001132080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001133080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001134080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001135080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001136080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001137080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001138080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001139080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001140080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001141080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001142080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001143080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001144080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001145080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001146080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001147080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001148080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001149080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001150080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001151080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001152080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001153080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001154080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001155080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001156080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001157080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001158080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001159080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001160080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001161080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001162080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001163080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001164080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001165080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001166080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001167080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001168080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001169080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001170080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001171080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001172080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001173080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001174080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001175080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001176080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001177080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001178080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001179080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001180080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001181080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001182080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001183080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001184080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001185080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001186080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001187080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001188080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001189080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001190080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001191080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001192080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001193080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001194080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001195080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001196080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001197080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001198080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001199080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001200080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001201080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001202080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001203080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001204080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001205080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001206080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001207080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001208080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001209080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001210080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001211080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001212080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001213080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001214080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001215080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001216080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001217080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001218080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001219080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001220080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001221080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001222080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001223080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001224080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001225080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001226080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001227080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001228080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001229080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001230080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001231080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001232080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001233080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001234080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001235080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001236080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001237080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001238080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001239080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001240080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001241080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001242080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001243080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001244080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001245080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001246080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001247080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001248080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001249080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001250080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001251080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001252080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001253080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001254080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001255080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001256080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001257080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001258080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001259080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001260080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001261080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001262080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001263080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001264080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001265080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001266080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001267080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001268080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001269080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001270080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001271080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001272080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001273080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001274080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001275080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001276080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001277080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001278080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001279080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001280080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001281080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001282080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001283080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001284080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001285080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001286080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001287080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001288080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001289080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001290080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001291080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001292080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001293080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001294080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001295080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001296080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001297080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001298080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001299080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001300080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001301080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001302080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001303080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001304080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001305080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001306080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001307080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001308080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001309080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001310080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001311080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001312080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001313080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001314080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001315080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001316080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001317080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001318080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001319080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001320080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001320630 [app.ethcell] INFO: Trying to connect by Ethernet
+0001320861 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0001320864 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0001320976 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0001320982 [net.ifapi] INFO: Netif en2 state UP
+0001321153 [net.en] TRACE: Closed MACRAW socket
+0001321185 [net.en] TRACE: Opened MACRAW socket, err = 0
+0001321186 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0001321197 [net.en] INFO: Link up
+0001321198 [net.ifapi] INFO: Netif en2 link UP, profile=NONE
+0001321201 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0001321211 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001322082 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001323080 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0001323483 [hal] INFO: DNS server list changed
+0001323484 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0001323490 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0001323647 [system] INFO: Cloud: connecting
+0001323650 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0001323653 [system] INFO: Loaded cloud server address and port from session data
+0001323662 [system] TRACE: Address type: 1
+0001323666 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0001323671 [system] INFO: Cloud socket=0, connecting to 18.214.12.187#5684
+0001323678 [system] TRACE: Cloud socket=0, connected to 18.214.12.187#5684
+0001323684 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0001323693 [system] TRACE: Applying new keepalive interval now
+0001323698 [system] INFO: Cloud socket connected
+0001323700 [system] INFO: Starting handshake: presense_announce=0
+0001323706 [comm.protocol.handshake] INFO: Establish secure connection
+0001323718 [comm.dtls] INFO: session has 0 uses
+0001323724 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0001323725 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,137, next_coap_id=44
+0001323732 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=68
+0001323740 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0001324080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001325087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001325382 [comm.protocol.handshake] INFO: Skipping HELLO message
+0001325384 [comm.coap] TRACE: Sending CoAP message
+0001325386 [comm.coap] TRACE: CON 0.00  size=4 token= id=69
+0001325405 [system] INFO: cloud connected from existing session.
+0001325424 [comm.coap] TRACE: Sending CoAP message
+0001325507 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=70
+0001325602 [comm.coap] TRACE: Sending CoAP message
+0001325604 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=71
+0001325679 [system] INFO: Sending application DESCRIBE
+0001325745 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0001325747 [system] INFO: Sending subscriptions
+0001325809 [comm.protocol] INFO: Checksum has  not sending subscriptions
+0001325811 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0001325952 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0001325954 [comm.coap] TRACE: Received CoAP message
+0001325958 [comm.coap] TRACE: ACK 0.00  size=4 token= id=69
+0001326080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001327080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001328080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001329080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001329609 [comm.coap] TRACE: Retransmitting CoAP message; ID: 70; attempt 1 of 3
+0001329688 [comm.coap] TRACE: Sending CoAP message
+0001329702 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=70
+0001330094 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0001330249 [comm.coap] TRACE: Received CoAP message
+0001330251 [comm.coap] TRACE: ACK 0.00  size=4 token= id=70
+0001330255 [comm.coap] TRACE: Retransmitting CoAP message; ID: 71; attempt 1 of 3
+0001330263 [comm.coap] TRACE: Sending CoAP message
+0001330268 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=71
+0001330540 [comm.coap] TRACE: Received CoAP message
+0001330542 [comm.coap] TRACE: ACK 0.00  size=4 token= id=71
+0001330548 [system] INFO: All handshake messages have been processed
+0001330652 [system] INFO: Cloud connected
+0001330653 [app.ethcell] INFO: Cloud connected over Ethernet keepAlive=25
+0001331082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001331185 [comm.coap] TRACE: Received CoAP message
+0001331187 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=20313
+0001331195 [comm.coap] TRACE: Sending CoAP message
+0001331198 [comm.coap] TRACE: ACK 0.00  size=4 token= id=20313
+0001332081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001333080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001334083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001335080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001336083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001337084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001338080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001339082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001340080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001341080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001342081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001343080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001344080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001345080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001346081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001347082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001348080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001349080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001350083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001351082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001352083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001353086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001354082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001355081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001356080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001356232 [comm.coap] TRACE: Sending CoAP message
+0001356233 [comm.coap] TRACE: CON 0.00  size=4 token= id=72
+0001357083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001358083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001359081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001360080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001361082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001361659 [comm.coap] TRACE: Retransmitting CoAP message; ID: 72; attempt 1 of 3
+0001361729 [comm.coap] TRACE: Sending CoAP message
+0001361733 [comm.coap] TRACE: CON 0.00  size=4 token= id=72
+0001362081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001363082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001364081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001365082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001366084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001367082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001368081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001369084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001370082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001371082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001371581 [comm.coap] TRACE: Retransmitting CoAP message; ID: 72; attempt 2 of 3
+0001371650 [comm.coap] TRACE: Sending CoAP message
+0001371652 [comm.coap] TRACE: CON 0.00  size=4 token= id=72
+0001372082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001373080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001373713 [comm.coap] TRACE: Received CoAP message
+0001373714 [comm.coap] TRACE: ACK 0.00  size=4 token= id=72
+0001374084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001375081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001376080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001377082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001378084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001379080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001380080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001381080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001382082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001383080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001384080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001385081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001386080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001387080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001388083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001389080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001390083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001391084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001392081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001393081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001394080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001395080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001396080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001397083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001398084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001398813 [comm.coap] TRACE: Sending CoAP message
+0001398813 [comm.coap] TRACE: CON 0.00  size=4 token= id=73
+0001399082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001400080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001401088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001402081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001403081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001403852 [comm.coap] TRACE: Retransmitting CoAP message; ID: 73; attempt 1 of 3
+0001403875 [comm.coap] TRACE: Sending CoAP message
+0001403953 [comm.coap] TRACE: CON 0.00  size=4 token= id=73
+0001404083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001405083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001406081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001407080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001408096 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001409080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001410080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001411086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001412081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001412808 [comm.coap] TRACE: Retransmitting CoAP message; ID: 73; attempt 2 of 3
+0001412810 [comm.coap] TRACE: Sending CoAP message
+0001412862 [comm.coap] TRACE: CON 0.00  size=4 token= id=73
+0001413081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001414081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001415082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001416083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001417083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001418084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001419086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001420081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001420550 [comm.coap] TRACE: Received CoAP message
+0001420552 [comm.coap] TRACE: ACK 0.00  size=4 token= id=73
+0001421080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001422080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001423080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001424080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001425080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001426080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001427081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001428080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001429081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001430084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001431082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001432083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001433080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001434081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001435080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001436080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001437080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001438082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001439080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001440083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001441080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001442083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001443080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001444083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001445080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001445666 [comm.coap] TRACE: Sending CoAP message
+0001445667 [comm.coap] TRACE: CON 0.00  size=4 token= id=74
+0001446084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001446485 [comm.coap] TRACE: Received CoAP message
+0001446487 [comm.coap] TRACE: ACK 0.00  size=4 token= id=74
+0001447081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001448080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001449080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001450082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001451081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001452084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001453081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001454080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001455080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001456083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001457080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001458082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001459080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001460083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001461080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001462080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001463081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001464082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001465082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001466082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001467081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001468080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001469080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001470084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001471080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001471507 [comm.coap] TRACE: Sending CoAP message
+0001471513 [comm.coap] TRACE: CON 0.00  size=4 token= id=75
+0001471893 [comm.coap] TRACE: Received CoAP message
+0001471895 [comm.coap] TRACE: ACK 0.00  size=4 token= id=75
+0001472081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001473080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001474083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001475087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001476083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001477080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001478081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001479080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001480083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001481080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001482087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001483083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001484080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001485080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001486080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001487083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001488083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001489080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001490084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001491081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001492080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001493083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001494080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001495082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001496083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001497026 [comm.coap] TRACE: Sending CoAP message
+0001497082 [comm.coap] TRACE: CON 0.00  size=4 token= id=76
+0001497081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001498082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001499083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001500083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001501081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001502018 [comm.coap] TRACE: Retransmitting CoAP message; ID: 76; attempt 1 of 3
+0001502075 [comm.coap] TRACE: Sending CoAP message
+0001502080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001502089 [comm.coap] TRACE: CON 0.00  size=4 token= id=76
+0001503082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001504028 [comm.coap] TRACE: Received CoAP message
+0001504030 [comm.coap] TRACE: ACK 0.00  size=4 token= id=76
+0001504080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001505080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001506080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001507083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001508083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001509081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001510083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001511080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001512080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001513080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001514080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001515082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001516081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001517081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001518083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001519081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001520083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001521080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001522080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001523084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001524083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001525082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001526081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001527080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001528080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001529052 [comm.coap] TRACE: Sending CoAP message
+0001529053 [comm.coap] TRACE: CON 0.00  size=4 token= id=77
+0001529081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001529804 [comm.coap] TRACE: Received CoAP message
+0001529806 [comm.coap] TRACE: ACK 0.00  size=4 token= id=77
+0001530080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001531081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001532082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001533080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001534087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001535082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001536082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001537083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001538080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001539084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001540080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001541081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001542080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001543084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001544080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001545081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001546081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001547084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001548084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001549081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001550081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001551084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001552082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001553084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001554083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001554911 [comm.coap] TRACE: Sending CoAP message
+0001554921 [comm.coap] TRACE: CON 0.00  size=4 token= id=78
+0001555081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001556080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001557082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001558084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001559050 [comm.coap] TRACE: Retransmitting CoAP message; ID: 78; attempt 1 of 3
+0001559097 [comm.coap] TRACE: Sending CoAP message
+0001559103 [comm.coap] TRACE: CON 0.00  size=4 token= id=78
+0001559091 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001560081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001561083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001562085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001563082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001564081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001565082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001566080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001567082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001567595 [comm.coap] TRACE: Retransmitting CoAP message; ID: 78; attempt 2 of 3
+0001567628 [comm.coap] TRACE: Sending CoAP message
+0001567671 [comm.coap] TRACE: CON 0.00  size=4 token= id=78
+0001568080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001568997 [comm.coap] TRACE: Received CoAP message
+0001568999 [comm.coap] TRACE: ACK 0.00  size=4 token= id=78
+0001569080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001570080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001571081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001572080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001573082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001574080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001575080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001576081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001577080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001578084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001579080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001580080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001581080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001582083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001583080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001584080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001585081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001586080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001587083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001588083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001589080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001590080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001591080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001592080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001593080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001594083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001594200 [comm.coap] TRACE: Sending CoAP message
+0001594274 [comm.coap] TRACE: CON 0.00  size=4 token= id=79
+0001595081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001595426 [comm.coap] TRACE: Received CoAP message
+0001595449 [comm.coap] TRACE: ACK 0.00  size=4 token= id=79
+0001596080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001597083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001598080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001599084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001600080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001601080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001602083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001603088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001604081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001605080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001606080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001607080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001608080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001609080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001610089 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001611080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001612083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001613081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001614082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001615080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001616080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001617080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001618082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001619080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001620082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001620537 [comm.coap] TRACE: Sending CoAP message
+0001620537 [comm.coap] TRACE: CON 0.00  size=4 token= id=80
+0001620890 [comm.coap] TRACE: Received CoAP message
+0001620890 [comm.coap] TRACE: ACK 0.00  size=4 token= id=80
+0001621080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001622080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001623081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001624083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001625080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001626080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001627080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001628080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001629080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001630082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001631080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001632081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001633081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001634083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001635082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001636083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001637082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001638080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001639082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001640081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001641080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001642080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001643080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001644083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001645080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001646013 [comm.coap] TRACE: Sending CoAP message
+0001646032 [comm.coap] TRACE: CON 0.00  size=4 token= id=81
+0001646082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001647083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001648080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001649084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001650083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001651080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001651524 [comm.coap] TRACE: Retransmitting CoAP message; ID: 81; attempt 1 of 3
+0001651562 [comm.coap] TRACE: Sending CoAP message
+0001651600 [comm.coap] TRACE: CON 0.00  size=4 token= id=81
+0001652080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001653086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001654082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001655082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001656080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001657082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001658083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001659082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001660082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001661083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001661185 [comm.coap] TRACE: Retransmitting CoAP message; ID: 81; attempt 2 of 3
+0001661188 [comm.coap] TRACE: Sending CoAP message
+0001661194 [comm.coap] TRACE: CON 0.00  size=4 token= id=81
+0001662083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001663080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001664082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001665080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001666087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001667084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001668080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001668878 [comm.coap] TRACE: Received CoAP message
+0001668879 [comm.coap] TRACE: ACK 0.00  size=4 token= id=81
+0001669080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001670082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001671082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001672080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001673080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001674080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001675083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001676080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001677080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001678080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001679084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001680080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001681081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001682080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001683080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001684080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001685083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001686082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001687081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001688080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001689080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001690081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001691092 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001692081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001693080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001694032 [comm.coap] TRACE: Sending CoAP message
+0001694034 [comm.coap] TRACE: CON 0.00  size=4 token= id=82
+0001694081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001695080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001696084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001697080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001698082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001699083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001699950 [comm.coap] TRACE: Retransmitting CoAP message; ID: 82; attempt 1 of 3
+0001699979 [comm.coap] TRACE: Sending CoAP message
+0001700052 [comm.coap] TRACE: CON 0.00  size=4 token= id=82
+0001700083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001700971 [comm.coap] TRACE: Received CoAP message
+0001700973 [comm.coap] TRACE: ACK 0.00  size=4 token= id=82
+0001701080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001702080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001703080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001704080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001705082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001706082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001707084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001708083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001709083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001710081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001711084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001712083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001713080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001714080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001715080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001716085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001717082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001718082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001719080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001720080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001721080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001722084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001723082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001724082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001725082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001726054 [comm.coap] TRACE: Sending CoAP message
+0001726074 [comm.coap] TRACE: CON 0.00  size=4 token= id=83
+0001726080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001726415 [comm.coap] TRACE: Received CoAP message
+0001726421 [comm.coap] TRACE: ACK 0.00  size=4 token= id=83
+0001727080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001728080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001729080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001730080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001731082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001732080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001733080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001734080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001735080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001736083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001737080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001738080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001739081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001740080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001741088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001742082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001743081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001744080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001745080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001746083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001747081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001748083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001749082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001750102 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001751081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001751535 [comm.coap] TRACE: Sending CoAP message
+0001751535 [comm.coap] TRACE: CON 0.00  size=4 token= id=84
+0001752083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001753083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001754080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001755080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001756083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001756210 [comm.coap] TRACE: Retransmitting CoAP message; ID: 84; attempt 1 of 3
+0001756229 [comm.coap] TRACE: Sending CoAP message
+0001756235 [comm.coap] TRACE: CON 0.00  size=4 token= id=84
+0001757080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001758083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001759080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001760082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001760584 [comm.coap] TRACE: Received CoAP message
+0001760586 [comm.coap] TRACE: ACK 0.00  size=4 token= id=84
+0001761080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001762080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001763080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001764080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001765080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001766080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001767080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001768084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001769080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001770082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001771080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001772084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001773081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001774081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001775082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001776080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001777080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001778083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001779081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001780082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001781084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001782082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001783080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001784083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001785082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001785761 [comm.coap] TRACE: Sending CoAP message
+0001785794 [comm.coap] TRACE: CON 0.00  size=4 token= id=85
+0001786084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001787080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001788084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001788589 [comm.coap] TRACE: Received CoAP message
+0001788591 [comm.coap] TRACE: ACK 0.00  size=4 token= id=85
+0001789080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001790082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001791080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001792083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001793088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001794082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001795081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001796084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001797082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001798082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001799082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001800083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001801080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001802080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001803083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001804080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001805080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001806080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001807081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001808080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001809081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001810082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001811082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001812083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001813082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001813679 [comm.coap] TRACE: Sending CoAP message
+0001813721 [comm.coap] TRACE: CON 0.00  size=4 token= id=86
+0001814080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001815095 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001816082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001817080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001818081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001819086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001819277 [comm.coap] TRACE: Retransmitting CoAP message; ID: 86; attempt 1 of 3
+0001819325 [comm.coap] TRACE: Sending CoAP message
+0001819329 [comm.coap] TRACE: CON 0.00  size=4 token= id=86
+0001820080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001821084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001822083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001823083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001824080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001824395 [comm.coap] TRACE: Received CoAP message
+0001824397 [comm.coap] TRACE: ACK 0.00  size=4 token= id=86
+0001825083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001826082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001827080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001828082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001829080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001830083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001831081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001832080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001833084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001834087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001835080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001836080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001837082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001838081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001839080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001840086 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001841083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001842083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001843080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001844084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001845080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001846084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001847080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001848080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001849080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001849484 [comm.coap] TRACE: Sending CoAP message
+0001849522 [comm.coap] TRACE: CON 0.00  size=4 token= id=87
+0001850088 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001851080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001852080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001853083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001853941 [comm.coap] TRACE: Retransmitting CoAP message; ID: 87; attempt 1 of 3
+0001853947 [comm.coap] TRACE: Sending CoAP message
+0001854031 [comm.coap] TRACE: CON 0.00  size=4 token= id=87
+0001854087 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001855080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001856083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001857084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001857637 [comm.coap] TRACE: Received CoAP message
+0001857656 [comm.coap] TRACE: ACK 0.00  size=4 token= id=87
+0001858080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001859081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001860083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001861080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001862080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001863081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001864081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001865082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001866083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001867080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001868083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001869080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001870083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001871080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001872084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001873083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001874083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001875084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001876081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001877080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001878080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001879080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001880085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001881083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001882080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001882772 [comm.coap] TRACE: Sending CoAP message
+0001882773 [comm.coap] TRACE: CON 0.00  size=4 token= id=88
+0001883080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001884082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001885083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001886083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001887085 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001888080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001888250 [comm.coap] TRACE: Retransmitting CoAP message; ID: 88; attempt 1 of 3
+0001888329 [comm.coap] TRACE: Sending CoAP message
+0001888331 [comm.coap] TRACE: CON 0.00  size=4 token= id=88
+0001889083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001889136 [comm.coap] TRACE: Received CoAP message
+0001889142 [comm.coap] TRACE: ACK 0.00  size=4 token= id=88
+0001890080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001891082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001892083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001893080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001894080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001895082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001896084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001897081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001898082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001899081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001900083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001901084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001902080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001903082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001904083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001905081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001906082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001907080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001908081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001909080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001910082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001911080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001912083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001913083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001914081 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001914339 [comm.coap] TRACE: Sending CoAP message
+0001914400 [comm.coap] TRACE: CON 0.00  size=4 token= id=89
+0001915083 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001916082 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001917080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001917189 [comm.coap] TRACE: Received CoAP message
+0001917191 [comm.coap] TRACE: ACK 0.00  size=4 token= id=89
+0001918080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001919084 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001920080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0001921080 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+
