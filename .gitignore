@@ -1,0 +1,4 @@
+p1_firmware*
+.DS_Store
+target/*
+src/p2-eth-rk.cpp
