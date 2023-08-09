@@ -1,7 +1,3 @@
-
-**** Port Closed
-
-**** Port Open
 0000002383 [net.en] INFO: Link up
 0000002383 [net.ifapi] INFO: Netif en2 link UP
 0000002384 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
