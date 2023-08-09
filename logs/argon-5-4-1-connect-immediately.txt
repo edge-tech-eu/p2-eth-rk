@@ -1,0 +1,104 @@
+0000001681 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000002028 [net.en] INFO: Link up
+0000002028 [net.ifapi] INFO: Netif en2 link UP, profile=NONE
+0000002031 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000002681 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000003459 [hal] INFO: DNS server list changed
+0000003459 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000003461 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000003563 [system] INFO: Cloud: connecting
+0000003565 [system] INFO: Read Server Address = type:1,domain:$id.udp-mesh.particle.io
+0000003567 [system] WARN: Failed to load session data from persistent storage
+0000003567 [system] INFO: Discarding session data
+0000003569 [system] TRACE: Resolving e00fce6851dfd626cdcca5ea.v5.udp-mesh.particle.io#5684
+0000003615 [system] TRACE: Address type: 3
+0000003615 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000003617 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000003617 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000003619 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000003619 [system] TRACE: Applying new keepalive interval now
+0000003621 [system] INFO: Cloud socket connected
+0000003621 [system] INFO: Starting handshake: presense_announce=0
+0000003621 [comm.protocol.handshake] INFO: Establish secure connection
+0000003627 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=2
+0000003681 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000004393 [comm.protocol.handshake] INFO: Sending HELLO message
+0000004393 [comm.coap] TRACE: Sending CoAP message
+0000004395 [comm.coap] TRACE: CON POST /h size=39 token= id=1
+0000004512 [comm.coap] TRACE: Received CoAP message
+0000004512 [comm.coap] TRACE: ACK 0.00  size=4 token= id=1
+0000004514 [comm.protocol.handshake] INFO: Handshake completed
+0000004514 [comm.protocol.handshake] TRACE: Updating cached session parameters
+0000004514 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000004516 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000004682 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000004867 [hal] TRACE: Cached ESP32 NCP firmware version: 5
+0000004871 [comm.coap] TRACE: Sending CoAP message
+0000004871 [comm.coap] TRACE: CON POST /d?\x01 size=511 token=af id=2
+0000004881 [system] INFO: Send spark/device/last_reset event
+0000004881 [comm.coap] TRACE: Sending CoAP message
+0000004883 [comm.coap] TRACE: CON POST /E/spark/device/last_reset size=42 token= id=3
+0000004886 [comm.coap] TRACE: Sending CoAP message
+0000004888 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=4
+0000004891 [comm.coap] TRACE: Sending CoAP message
+0000004893 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=5
+0000004895 [comm] INFO: Sending TIME request
+0000004897 [comm.coap] TRACE: Sending CoAP message
+0000004897 [comm.coap] TRACE: CON GET /t size=7 token=b0 id=6
+0000004900 [system] INFO: Sending application DESCRIBE
+0000004902 [comm.coap] TRACE: Sending CoAP message
+0000004902 [comm.coap] TRACE: CON POST /d?\x02 size=25 token=b1 id=7
+0000004905 [system] INFO: Sending subscriptions
+0000004907 [comm.protocol] INFO: Sending subscriptions
+0000004907 [comm.coap] TRACE: Sending CoAP message
+0000004907 [comm.coap] TRACE: CON GET /e/particle?u size=17 token= id=8
+0000004911 [comm.coap] TRACE: Sending CoAP message
+0000004911 [comm.coap] TRACE: CON GET /e/spark?u size=14 token= id=9
+0000004915 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000004984 [comm.coap] TRACE: Received CoAP message
+0000004984 [comm.coap] TRACE: ACK 0.00  size=5 token=af id=2
+0000004986 [comm.protocol] TRACE: Updating system DESCRIBE checksum
+0000004986 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000005358 [hal] TRACE: Cached ESP32 NCP firmware version: 5
+0000005364 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000005366 [comm.coap] TRACE: Received CoAP message
+0000005366 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3
+0000005468 [comm.coap] TRACE: Received CoAP message
+0000005468 [comm.coap] TRACE: ACK 0.00  size=4 token= id=4
+0000005572 [comm.coap] TRACE: Received CoAP message
+0000005572 [comm.coap] TRACE: ACK 0.00  size=4 token= id=5
+0000005674 [comm.coap] TRACE: Received CoAP message
+0000005674 [comm.coap] TRACE: ACK 2.05  size=10 token=b0 id=6
+0000005676 [comm.protocol] INFO: Received TIME response: 1691565142
+0000005681 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000005776 [comm.coap] TRACE: Received CoAP message
+0000005776 [comm.coap] TRACE: ACK 0.00  size=5 token=b1 id=7
+0000005778 [comm.protocol] TRACE: Updating application DESCRIBE checksum
+0000005778 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000005778 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000005880 [comm.coap] TRACE: Received CoAP message
+0000005880 [comm.coap] TRACE: ACK 0.00  size=4 token= id=8
+0000005982 [comm.coap] TRACE: Received CoAP message
+0000005982 [comm.coap] TRACE: ACK 0.00  size=4 token= id=9
+0000005984 [system] INFO: All handshake messages have been processed
+0000005984 [comm.protocol] TRACE: Updating subscriptions checksum
+0000005984 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000005986 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000006002 [comm.coap] TRACE: Received CoAP message
+0000006002 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=56954
+0000006004 [comm.coap] TRACE: Sending CoAP message
+0000006004 [comm.coap] TRACE: ACK 0.00  size=4 token= id=56954
+0000006008 [system] INFO: Cloud connected
+0000006008 [app.ethcell] INFO: Cloud connected over Ethernet keepAlive=25
+0000006526 [comm.coap] TRACE: Received CoAP message
+0000006526 [comm.coap] TRACE: CON GET /d?\x04 size=9 token=02 id=56955
+0000006528 [comm.protocol] INFO: Received DESCRIBE request; flags: 0x04
+0000006528 [comm.coap] TRACE: Sending CoAP message
+0000006530 [comm.coap] TRACE: ACK 0.00  size=4 token= id=56955
+0000006533 [comm.coap] TRACE: Sending CoAP message
+0000006535 [comm.coap] TRACE: CON 2.05  size=151 token=02 id=10
+0000006644 [comm.coap] TRACE: Received CoAP message
+0000006646 [comm.coap] TRACE: ACK 0.00  size=4 token= id=10
+0000006681 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000007681 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000008681 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected

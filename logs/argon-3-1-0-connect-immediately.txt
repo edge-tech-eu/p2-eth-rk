@@ -1,0 +1,92 @@
+
+**** Port Closed
+
+**** Port Open
+0000002383 [net.en] INFO: Link up
+0000002383 [net.ifapi] INFO: Netif en2 link UP
+0000002384 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000002431 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000002805 [hal] INFO: DNS server list changed
+0000002805 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000002806 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000002908 [system] INFO: Cloud: connecting
+0000002911 [system] INFO: Read Server Address = type:1,domain:$id.udp-mesh.particle.io
+0000002912 [system] WARN: Failed to load session data from persistent storage
+0000002912 [system] INFO: Discarding session data
+0000002914 [system] TRACE: Resolving e00fce6851dfd626cdcca5ea.v3.udp-mesh.particle.io#5684
+0000002966 [system] TRACE: Address type: 3
+0000002966 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000002966 [system] INFO: Cloud socket=0, connecting to 18.214.12.187#5684
+0000002968 [system] TRACE: Cloud socket=0, connected to 18.214.12.187#5684
+0000002968 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000002970 [system] TRACE: Applying new keepalive interval now
+0000002970 [system] INFO: Cloud socket connected
+0000002970 [system] INFO: Starting handshake: presense_announce=0
+0000002972 [comm.protocol.handshake] INFO: Establish secure connection
+0000002976 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=2
+0000003431 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000003738 [comm.protocol.handshake] INFO: Sending HELLO message
+0000003858 [comm.protocol.handshake] INFO: Handshake completed
+0000003859 [comm.protocol.handshake] TRACE: Updating cached session parameters
+0000003859 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000003861 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000004200 [hal] TRACE: Cached ESP32 NCP firmware version: 5
+0000004203 [comm.protocol] INFO: Posting 'S' describe message
+0000004213 [system] INFO: Send spark/device/last_reset event
+0000004221 [comm] INFO: Sending TIME request
+0000004227 [system] INFO: Sending application DESCRIBE
+0000004227 [comm.protocol] INFO: Posting 'A' describe message
+0000004231 [system] INFO: Sending subscriptions
+0000004231 [comm.protocol] INFO: Sending subscriptions
+0000004237 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000004316 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000004316 [comm.protocol] TRACE: message id 2 complete with code 0.00
+0000004318 [comm.protocol] TRACE: Updating system DESCRIBE checksum
+0000004318 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000004431 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000004680 [hal] TRACE: Cached ESP32 NCP firmware version: 5
+0000004685 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000004685 [comm.protocol] TRACE: rcv'd message type=13
+0000004687 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000004687 [comm.protocol] TRACE: message id 3 complete with code 0.00
+0000004687 [comm.protocol] TRACE: rcv'd message type=13
+0000004789 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000004789 [comm.protocol] TRACE: message id 4 complete with code 0.00
+0000004791 [comm.protocol] TRACE: rcv'd message type=13
+0000004891 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000004891 [comm.protocol] TRACE: message id 5 complete with code 0.00
+0000004893 [comm.protocol] TRACE: rcv'd message type=13
+0000004993 [comm.protocol] TRACE: Reply recieved: type=2, code=69
+0000004993 [comm.protocol] TRACE: message id 6 complete with code 2.05
+0000004995 [comm.protocol] INFO: Received TIME response: 1691564642
+0000004995 [comm.protocol] TRACE: rcv'd message type=12
+0000005095 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000005095 [comm.protocol] TRACE: message id 7 complete with code 0.00
+0000005097 [comm.protocol] TRACE: Updating application DESCRIBE checksum
+0000005097 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000005098 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000005099 [comm.protocol] TRACE: rcv'd message type=13
+0000005199 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000005199 [comm.protocol] TRACE: message id 8 complete with code 0.00
+0000005201 [comm.protocol] TRACE: rcv'd message type=13
+0000005301 [system] INFO: All handshake messages have been processed
+0000005301 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000005303 [comm.protocol] TRACE: message id 9 complete with code 0.00
+0000005303 [comm.protocol] TRACE: Updating subscriptions checksum
+0000005304 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000005305 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000005305 [comm.protocol] TRACE: rcv'd message type=13
+0000005336 [comm.protocol] TRACE: rcv'd message type=8
+0000005337 [system] INFO: Cloud connected
+0000005337 [app.ethcell] INFO: Cloud connected over Ethernet keepAlive=25
+0000005431 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000005871 [comm.protocol] INFO: Received DESCRIBE request; flags: 0x04
+0000005876 [comm.protocol] INFO: Posting 'M' describe message
+0000005880 [comm.protocol] TRACE: rcv'd message type=1
+0000005983 [comm.protocol] TRACE: Reply recieved: type=2, code=0
+0000005983 [comm.protocol] TRACE: message id 10 complete with code 0.00
+0000005985 [comm.protocol] TRACE: rcv'd message type=13
+0000006431 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000007431 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000008431 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
+0000009431 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: connected
