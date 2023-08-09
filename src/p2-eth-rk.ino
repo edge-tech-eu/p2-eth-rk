@@ -1,13 +1,14 @@
 #include "Particle.h"
 #include "EthernetCellularRK.h"
 
-STARTUP(BLE.selectAntenna(BleAntennaType::EXTERNAL));
+//STARTUP(BLE.selectAntenna(BleAntennaType::EXTERNAL));
 
-STARTUP(System.enableFeature(FEATURE_DISABLE_LISTENING_MODE));
+//STARTUP(System.enableFeature(FEATURE_DISABLE_LISTENING_MODE));
 
 
 // serial logger on serial2
-Serial2LogHandler logHandler(115200, LOG_LEVEL_ALL);
+// Serial2LogHandler logHandler(115200, LOG_LEVEL_ALL);
+SerialLogHandler logHandler(115200, LOG_LEVEL_ALL);
 
 // SYSTEM_THREAD(ENABLED) and SYSTEM_MODE(SEMI_AUTOMATIC) are required
 SYSTEM_THREAD(ENABLED);
@@ -19,19 +20,25 @@ void setup() {
 
     // just to test:
     WiFi.clearCredentials();
-    // WiFi.setCredentials("qq","***REMOVED***");
-    // WiFi.setCredentials("H369A59AFB1","***REMOVED***");
-    // WiFi.setCredentials("external-edge-fs","***REMOVED***");
+
+    delay(2s);
 
     Log.info("ps-eth-rk");
     Log.info("System version: %s", System.version().c_str());
     Log.info("System deviceID: %s", System.deviceID().c_str());
+    uint8_t addr[6];
+    Ethernet.macAddress(addr);
+    Log.info("Mac address: %02x:%02x:%02x:%02x:%02x:%02x", addr[0], addr[1], addr[2], addr[3], addr[4], addr[5]);
+    
+
+  
 
     if (!System.featureEnabled(FEATURE_ETHERNET_DETECTION)) {
 
         Log.info("Enabling Ethernet...");
         System.enableFeature(FEATURE_ETHERNET_DETECTION);
 
+/*
         if_wiznet_pin_remap remap = {};
         remap.base.type = IF_WIZNET_DRIVER_SPECIFIC_PIN_REMAP;
 
@@ -50,6 +57,7 @@ void setup() {
             delay(500);
             System.reset();
         }
+        */
     }
 
     // You must add this to your setup() function
