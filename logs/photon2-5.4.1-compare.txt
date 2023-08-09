@@ -1,0 +1,207 @@
+0000003879 [app] INFO: ps-eth-rk
+0000003887 [app] INFO: System version: 5.4.1
+0000003913 [app] INFO: System deviceID: 0a10aced202194944a043184
+0000003929 [app] INFO: Mac address: 94:94:4a:04:31:87
+0000003944 [app.ethcell] INFO: Ethernet adapter present
+0000003957 [app.ethcell] INFO: Trying to connect by Ethernet
+0000004303 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000004339 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000004380 [net.ifapi] INFO: Netif en2 state UP
+0000004561 [net.en] TRACE: Closed MACRAW socket
+0000004605 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004620 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004645 [net.en] INFO: Link up
+0000004646 [net.ifapi] INFO: Netif en2 link UP, profile=NONE
+0000004649 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000004944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000005376 [hal] INFO: DNS server list changed
+0000005377 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000005379 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000005589 [system] INFO: Cloud: connecting
+0000005678 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000005826 [system] WARN: Failed to load session data from persistent storage
+0000005866 [system] INFO: Discarding session data
+0000005921 [system] TRACE: Resolving 0a10aced202194944a043184.v5.udp.particle.io#5684
+0000005944 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000006946 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000007096 [system] TRACE: Address type: 3
+0000007332 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000007606 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000007690 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000007728 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000007882 [system] TRACE: Applying new keepalive interval now
+0000007972 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000008109 [system] INFO: Cloud socket connected
+0000008178 [system] INFO: Starting handshake: presense_announce=0
+0000008212 [comm.protocol.handshake] INFO: Establish secure connection
+0000008253 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=2
+0000008947 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000009944 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000010944 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000011953 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000012952 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000013838 [comm.protocol.handshake] INFO: Sending HELLO message
+0000014037 [comm.coap] TRACE: Sending CoAP message
+0000014131 [comm.coap] TRACE: CON POST /h size=39 token= id=1
+0000013944 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000014948 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000015946 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000016950 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000016998 [comm.coap] TRACE: Received CoAP message
+0000017042 [comm.coap] TRACE: ACK 0.00  size=4 token= id=1
+0000017072 [comm.protocol.handshake] INFO: Handshake completed
+0000017104 [comm.protocol.handshake] TRACE: Updating cached session parameters
+0000017168 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000017415 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000017944 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000018946 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000019950 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000020954 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000021372 [comm.coap] TRACE: Sending CoAP message
+0000021654 [comm.coap] TRACE: CON POST /d?\x01 size=505 token=8d id=2
+0000021958 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000022117 [system] INFO: Send spark/device/last_reset event
+0000022566 [comm.coap] TRACE: Sending CoAP message
+0000022764 [comm.coap] TRACE: CON POST /E/spark/device/last_reset size=42 token= id=3
+0000022993 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000023135 [comm.coap] TRACE: Sending CoAP message
+0000023500 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=4
+0000023973 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000023977 [comm.coap] TRACE: Sending CoAP message
+0000024374 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=5
+0000024746 [comm] INFO: Sending TIME request
+0000024952 [comm.coap] TRACE: Sending CoAP message
+0000024961 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000025163 [comm.coap] TRACE: CON GET /t size=7 token=8e id=6
+0000025652 [system] INFO: Sending application DESCRIBE
+0000025937 [comm.coap] TRACE: Sending CoAP message
+0000025971 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000026131 [comm.coap] TRACE: CON POST /d?\x02 size=25 token=8f id=7
+0000026589 [system] INFO: Sending subscriptions
+0000026773 [comm.protocol] INFO: Sending subscriptions
+0000026956 [comm.coap] TRACE: Sending CoAP message
+0000027130 [comm.coap] TRACE: CON GET /e/particle?u size=17 token= id=8
+0000026953 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000027312 [comm.coap] TRACE: Sending CoAP message
+0000027794 [comm.coap] TRACE: CON GET /e/spark?u size=14 token= id=9
+0000027976 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000028065 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000028853 [comm.coap] TRACE: Received CoAP message
+0000028951 [comm.coap] TRACE: CON GET /d?\x04 size=9 token=01 id=9991
+0000029049 [comm.coap] TRACE: Retransmitting CoAP message; ID: 4; attempt 1 of 3
+0000029081 [comm.coap] TRACE: Sending CoAP message
+0000029161 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=4
+0000028945 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000029268 [comm.coap] TRACE: Retransmitting CoAP message; ID: 3; attempt 1 of 3
+0000029566 [comm.coap] TRACE: Sending CoAP message
+0000029688 [comm.coap] TRACE: CON POST /E/spark/device/last_reset size=42 token= id=3
+0000029956 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000029972 [comm.coap] TRACE: Retransmitting CoAP message; ID: 2; attempt 1 of 3
+0000030192 [comm.coap] TRACE: Sending CoAP message
+0000030298 [comm.coap] TRACE: CON POST /d?\x01 size=505 token=8d id=2
+0000030742 [comm.protocol] INFO: Received DESCRIBE request; flags: 0x04
+0000030974 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000031014 [comm.coap] TRACE: Sending CoAP message
+0000031299 [comm.coap] TRACE: ACK 0.00  size=4 token= id=9991
+0000031571 [comm.coap] TRACE: Sending CoAP message
+0000031677 [comm.coap] TRACE: CON 2.05  size=151 token=01 id=10
+0000031945 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000032952 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000033242 [comm.coap] TRACE: Received CoAP message
+0000033348 [comm.coap] TRACE: CON GET /d?\x01 size=9 token=02 id=9992
+0000033542 [comm.coap] TRACE: Retransmitting CoAP message; ID: 9; attempt 1 of 3
+0000033662 [comm.coap] TRACE: Sending CoAP message
+0000033768 [comm.coap] TRACE: CON GET /e/spark?u size=14 token= id=9
+0000033883 [comm.coap] TRACE: Retransmitting CoAP message; ID: 8; attempt 1 of 3
+0000033988 [comm.coap] TRACE: Sending CoAP message
+0000034000 [comm.coap] TRACE: CON GET /e/particle?u size=17 token= id=8
+0000033952 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000034200 [app.ethcell] INFO: Took too long to connect to the cloud by Ethernet, switching to cellular
+0000034100 [comm.coap] TRACE: Retransmitting CoAP message; ID: 7; attempt 1 of 3
+0000034325 [comm.coap] TRACE: Sending CoAP message
+0000034418 [comm.coap] TRACE: CON POST /d?\x02 size=25 token=8f id=7
+0000034297 [app.ethcell] INFO: Trying to connect by cellular
+0000034598 [comm.coap] TRACE: Retransmitting CoAP message; ID: 6; attempt 1 of 3
+0000034987 [comm.coap] TRACE: Sending CoAP message
+0000035080 [comm.coap] TRACE: CON GET /t size=7 token=8e id=6
+0000034981 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000035177 [comm.coap] TRACE: Retransmitting CoAP message; ID: 5; attempt 1 of 3
+0000035656 [comm.coap] TRACE: Sending CoAP message
+0000035836 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=5
+0000035957 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000036153 [comm.protocol] INFO: Received DESCRIBE request; flags: 0x01
+0000036528 [comm.coap] TRACE: Sending CoAP message
+0000036650 [comm.coap] TRACE: ACK 0.00  size=4 token= id=9992
+0000036956 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000037949 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000038951 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000039944 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000040944 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000041955 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000042945 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000043946 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000044311 [comm.coap] TRACE: Sending CoAP message
+0000044565 [comm.coap] TRACE: CON 2.05  size=501 token=02 id=11
+0000044950 [app] INFO: Ethernet: ready, WiFi: not ready, Cloud: not connected
+0000045652 [net.ifapi] INFO: Netif en2 state DOWN
+0000045685 [hal] INFO: DNS server list changed
+0000045698 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000045717 [hal] INFO: DNS server list changed
+0000045752 [net.en] TRACE: Closed MACRAW socket
+0000045765 [net.ifapi] INFO: Netif en2 link DOWN, profile=NONE
+0000045781 [net.ifapi] TRACE: Netif en2 ipv4 configuration changed
+0000045799 [hal] INFO: DNS server list changed
+0000045811 [hal] INFO: DNS server list changed
+0000045825 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000045855 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000045999 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000046118 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000046471 [system] INFO: Cloud: disconnecting
+0000046574 [system] INFO: Cloud: disconnected
+0000046952 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000046954 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000047333 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000047946 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000048947 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000049947 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000050944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000051944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000052944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000053944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000054944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000055944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000056944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000057944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000058944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000059944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000060944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000061944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000062944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000063944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000064944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000065944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000066944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000067944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000068944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000069944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000070944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000071944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000072944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000073944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000074944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000075944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000076944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000077944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000078944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000079944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000080944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000081944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000082944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000083944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000084944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000085944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000086944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000087944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000088944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000089944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
+0000090944 [app] INFO: Ethernet: not ready, WiFi: not ready, Cloud: not connected
